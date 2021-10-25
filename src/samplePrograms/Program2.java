@@ -32,7 +32,7 @@ public class Program2 {
 				arr2.add(arr1.get(i));
 			}
 		}
-		System.err.println("Time for Second top player is "+arr2.get(0));
+		System.err.println("Time for top player exluding finishers is "+arr2.get(0));
 
 	}
 

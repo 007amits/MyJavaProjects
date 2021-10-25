@@ -3,6 +3,8 @@ package samplePrograms;
 import java.util.Scanner;
 
 public class Program1 {
+	/* This program will find out nth term in series 
+	 * where odd term is a prime number and even term is a fibonacci number. */
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {

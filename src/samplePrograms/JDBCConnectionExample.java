@@ -14,6 +14,14 @@ public class JDBCConnectionExample {
 
       /* 2. Create Connection object */
       Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","user","password");
+      /*
+       * The connection URL for the oracle10G database is jdbc:oracle:thin:@localhost:1521:xe where
+       * jdbc is the API, oracle is the database, thin is the driver, 
+       * localhost is the server name on which oracle is running, we may also use IP address, 
+       * 1521 is the port number and 
+       * XE is the Oracle service name. 
+       * You may get all these information from the tnsnames.ora file.
+       */
 
       /* 3. Create Statement object */
       Statement stmt=con.createStatement();

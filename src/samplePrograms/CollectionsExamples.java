@@ -11,6 +11,7 @@ import java.util.TreeSet;
 import java.util.Vector;
 
 public class CollectionsExamples {
+  //Amit Shukla
 
   public static void main(String[] args) {
     HashSet hs = new HashSet();

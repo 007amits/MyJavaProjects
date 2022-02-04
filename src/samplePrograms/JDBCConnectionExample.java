@@ -36,7 +36,7 @@ public class JDBCConnectionExample {
 
     } catch(Exception e) {
       System.out.println(e);
-    }  
+    }
 
   }
 

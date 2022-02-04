@@ -11,7 +11,6 @@ import java.util.TreeSet;
 import java.util.Vector;
 
 public class CollectionsExamples {
-  //Amit Shukla
 
   public static void main(String[] args) {
     HashSet hs = new HashSet();
@@ -111,7 +110,7 @@ public class CollectionsExamples {
      * Queue extends Collection 
      * Queue store elements in inserted order
      * Works on FIFO - First in First out
-     * Perform operations like - offer(), peek(), poll() in addition to vector
+     * Perform operations like - offer(), peek(), poll()
      * */
     
     Queue<Integer> pq = new PriorityQueue<Integer>();

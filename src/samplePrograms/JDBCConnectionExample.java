@@ -13,7 +13,7 @@ public class JDBCConnectionExample {
       Class.forName("oracle.jdbc.driver.OracleDriver");
 
       /* 2. Create Connection object */
-      Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","user","password");
+      Connection con=DriverManager.getConnection("jdbc:db2:thin:@localhost:1521:xe","user","password");
       /*
        * The connection URL for the oracle10G database is jdbc:oracle:thin:@localhost:1521:xe where
        * jdbc is the API, oracle is the database, thin is the driver, 
@@ -27,9 +27,11 @@ public class JDBCConnectionExample {
       Statement stmt=con.createStatement();
 
       /* 4. Execute the query */
-      ResultSet rs=stmt.executeQuery("select * from emp");  
+      ResultSet rs=stmt.executeQuery("select * from emp"); 
       while(rs.next())  
         System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3));
+      
+      stmt.executeUpdate("insert into user(name,email)values('javatpoint','java@javatpoint.com')");
 
       /* 5. Close Connection object */
       con.close();

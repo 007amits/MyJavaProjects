@@ -18,7 +18,9 @@ public class ExceptionSample {
       int a = 15;
       int b = 0;
       c = a/b;
+      System.out.println(c);
     } catch(ArithmeticException ex) {
+      System.out.println("Exception occured : "+ex.getClass());
       System.out.println(ex.getMessage());
     }
     return c;
@@ -31,8 +33,10 @@ public class ExceptionSample {
       while((i=reader.read())!=-1) {
         System.out.print((char)i);
       }
+      System.out.println();
       reader.close();
     } catch(FileNotFoundException ex) {
+      System.out.println("Exception occured : "+ex.getClass());
       System.out.println(ex.getMessage());
     }
     

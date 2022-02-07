@@ -14,7 +14,7 @@ class TreeMapExample {
    * 5. Java TreeMap is non synchronized. 
    * 6. Java TreeMap maintains ascending order.
    */
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     TreeMap<Integer, String> map=new TreeMap<Integer, String>();
     map.put(100,"Amit");
     map.put(102,"Ravi");
@@ -22,5 +22,5 @@ class TreeMapExample {
     map.put(103,"Rahul");
     
     System.out.println("HashTable elements are : "+map);
-  }  
-}  
+  }
+}

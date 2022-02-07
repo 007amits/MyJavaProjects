@@ -6,6 +6,8 @@ import java.util.TreeSet;
 public class SetExamples {
 
   public static void main(String[] args) {
+    //Set can not store duplicate elements.
+    
     HashSet hs = new HashSet();
     hs.add("A");
     hs.add(2);

@@ -4,13 +4,16 @@ import java.util.Hashtable;
 
 public class HashTableExample {
   
-  /* 
-   * 
-   * Java HashTable class implements the Map interface which allows us to store key and value pair.
-   * Here keys should be unique and each can map at max one value.
-   * It does not allow any null key or null values.
-   * It is synchronized.
-   * */
+  /*
+   * 1. A Hashtable is an array of a list. 
+   * 2. Each list is known as a bucket. 
+   * 3. The position of the bucket is identified by calling the hashcode() method. 
+   * 4. A Hashtable contains values based on the key.
+   * 5. Java Hashtable class contains unique elements. 
+   * 6. Java Hashtable class doesn't allow null key or value. 
+   * 7. Java Hashtable class is synchronized. 
+   * 8. The initial default capacity of Hashtable class is 11 whereas loadFactor is 0.75.
+   */
 
   public static void main(String[] args) {
     Hashtable<String, String> table = new Hashtable<String, String>();

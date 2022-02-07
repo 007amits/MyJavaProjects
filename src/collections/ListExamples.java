@@ -21,14 +21,18 @@ public class ListExamples {
     
   //------------------------------------------------------------------------------------//
     
-    Vector fruits = new Vector();
-    fruits.add("Orange");
-    fruits.add("Apple");
-    fruits.add("Grapes");
-    fruits.add("Pine");
-    fruits.add(12);
+    Vector<String> vec = new Vector<String>();  
+    //Adding elements using add() method of List  
+    vec.add("Tiger");  
+    vec.add("Lion");  
+    vec.add("Dog");  
+    vec.add("Elephant");  
+    //Adding elements using addElement() method of Vector  
+    vec.addElement("Rat");  
+    vec.addElement("Cat");  
+    vec.addElement("Deer");
     
-    System.out.println("Vector elements are : "+fruits);
+    System.out.println("Vector elements are : "+vec);
     
     /* 
      * Vector extends AbstractList

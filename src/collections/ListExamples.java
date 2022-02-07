@@ -16,6 +16,7 @@ public class ListExamples {
     
     /* 
      * List can not take different types of data Types. 
+     * List can store duplicate elements.
      * List store elements in inserted order
      * */
     

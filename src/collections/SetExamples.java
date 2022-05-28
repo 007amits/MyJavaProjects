@@ -26,6 +26,7 @@ public class SetExamples {
     set.add("Three");   
     set.add("Four");  
     set.add("Five");
+    set.add(null);
     System.out.println("HashSet elements are : "+set);
     
   //------------------------------------------------------------------------------------//

@@ -7,6 +7,7 @@ public class MaskEmailAddress {
     String email = sc.next();
     
     System.out.println("Masked email address = "+maskEmailAddress(email));
+    sc.close();
     
   }
 
